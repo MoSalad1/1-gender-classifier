@@ -11,3 +11,5 @@ clf=tree.DecisionTreeClassifier()
 clf=clf.fit(x,y)
 prediction=clf.predict([[190, 70, 43]])
 print(prediction)
+#output ['male']
+#compared it to chat gpt said male too
